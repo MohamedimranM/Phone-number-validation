@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.search{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #1A033B;
+   color: aliceblue;
+   height: 150px;
+   flex-direction: column;
+}
+h3{
+    text-align: center;
+}
+.inp{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.btn{
+    background-color: #DDE2FF;
+    color: black;
+    border-radius: 4px;
+    width: 70px;
+    height: 30px;
+    margin-top: 10px; 
+}
+.user_data{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px; 
+}
+.users{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDE2FF;
+    color:black;
+    width: 300px;
+    height: fit-content;
+    padding: 20px;
+}
+.hlo{
+    color:red;
+}
